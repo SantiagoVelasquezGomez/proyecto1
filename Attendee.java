@@ -7,7 +7,7 @@ public class Attendee {
     private String phoneNumber;
     private boolean isRegistered;
 
-    // Constructor
+    
     public Attendee(int id, int ownerId, int assemblyId, String phoneNumber, boolean isRegistered) {
         this.id = id;
         this.ownerId = ownerId;
@@ -16,16 +16,16 @@ public class Attendee {
         this.isRegistered = isRegistered;
     }
 
-    // Métodos
+    
     public void registerAttendee(int ownerId, int assemblyId, String phoneNumber) {
-        // Implementación para registrar un asistente
+        
     }
 
     public void deregisterAttendee(int id) {
-        // Implementación para eliminar el registro de un asistente
+        
     }
 
-    // Getters y Setters
+    
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public int getOwnerId() { return ownerId; }
