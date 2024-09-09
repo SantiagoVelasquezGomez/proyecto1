@@ -8,7 +8,7 @@ public class Owner {
     private String apartmentNumber;
     private String phoneNumber;
 
-    // Constructor
+    
     public Owner(int id, String name, int coefficient, String idNumber, String apartmentNumber, String phoneNumber) {
         this.id = id;
         this.name = name;
@@ -18,20 +18,20 @@ public class Owner {
         this.phoneNumber = phoneNumber;
     }
 
-    // Métodos
+    
     public void registerOwner(String name, int coefficient, String idNumber, String apartmentNumber, String phoneNumber) {
-        // Implementación para registrar un propietario
+        
     }
 
     public void updateOwner(int id, String name, int coefficient, String idNumber, String apartmentNumber, String phoneNumber) {
-        // Implementación para actualizar un propietario
+        
     }
 
     public void deleteOwner(int id) {
-        // Implementación para eliminar un propietario
+        
     }
 
-    // Getters y Setters
+    
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getName() { return name; }
