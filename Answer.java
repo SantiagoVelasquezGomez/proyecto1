@@ -7,7 +7,7 @@ public class Answer {
     private int response;
     private LocalDateTime date;
 
-    // Constructor
+    
     public Answer(int id, int questionId, int ownerId, int response, LocalDateTime date) {
         this.id = id;
         this.questionId = questionId;
@@ -16,20 +16,20 @@ public class Answer {
         this.date = date;
     }
 
-    // Métodos
+    
     public void submitAnswer(int questionId, int ownerId, int response, LocalDateTime date) {
-        // Implementación para enviar una respuesta
+    
     }
 
     public void updateAnswer(int id, int questionId, int ownerId, int response, LocalDateTime date) {
-        // Implementación para actualizar una respuesta
+    
     }
 
     public void deleteAnswer(int id) {
-        // Implementación para eliminar una respuesta
+        
     }
 
-    // Getters y Setters
+    
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public int getQuestionId() { return questionId; }
