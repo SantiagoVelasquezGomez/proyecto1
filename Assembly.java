@@ -10,20 +10,20 @@ public class Assembly {
     private List<Question> questions = new ArrayList<>();
     private List<Attendee> attendees = new ArrayList<>();
 
-    // Constructor
+    
     public Assembly(int id, String name, LocalDateTime date) {
         this.id = id;
         this.name = name;
         this.date = date;
     }
 
-    // Métodos
+    
     public void createAssembly(String name, LocalDateTime date) {
-        // Implementación para crear una asamblea
+        
     }
 
     public void deleteAssembly(int id) {
-        // Implementación para eliminar una asamblea
+        
     }
 
     public void addQuestion(Question question) {
@@ -34,7 +34,7 @@ public class Assembly {
         attendees.add(attendee);
     }
 
-    // Getters y Setters
+    
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getName() { return name; }
